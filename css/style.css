@@ -29,3 +29,39 @@ a {
 @font-face { font-family: 'SpoqaB'; src: url(../font/SpoqaHanSansBold.ttf); } 
 @font-face { font-family: 'SpoqaL'; src: url(../font/SpoqaHanSansLight.ttf), url(../font/NanumSquare_acR.ttf), url(../font/SpoqaHanSansLight.woff); } 
 @font-face { font-family: 'SpoqaR'; src: url(../font/SpoqaHanSansRegular.ttf), url(../font/SanumSquare_acR.ttf), url(../font/SpoqaHanSansRegular.woff); } 
+
+
+#wrap {
+    width: 100%;
+}
+#wrap header {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 4;
+    background-color: #fff;
+    border-bottom: 1px solid #e6e6e6;
+}
+#wrap header .header_main {
+    width: 1400px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+}
+#wrap header .header_main h1.logo {
+    font-size: 23px;
+    letter-spacing: 5px;
+    padding-left: 50px;
+}
+#wrap header .header_main h1.logo span.logoImg {
+    background: url(../images/fv.png)no-repeat;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-size: 35px;
+}
