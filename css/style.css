@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.blind {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    text-indent: -99999999999px;
+    width: 0;
+    height: 0;
+    font-size: 0;
+}
+
+/* 웹경량화 */
+@font-face { font-family: 'RalewayL'; src: url(../font/Raleway-Light.ttf); } 
+@font-face { font-family: 'RalewayT'; src: url(../font/Raleway-Thin.ttf); } 
+@font-face { font-family: 'SpoqaB'; src: url(../font/SpoqaHanSansBold.ttf); } 
+@font-face { font-family: 'SpoqaL'; src: url(../font/SpoqaHanSansLight.ttf), url(../font/NanumSquare_acR.ttf), url(../font/SpoqaHanSansLight.woff); } 
+@font-face { font-family: 'SpoqaR'; src: url(../font/SpoqaHanSansRegular.ttf), url(../font/SanumSquare_acR.ttf), url(../font/SpoqaHanSansRegular.woff); } 
