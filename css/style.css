@@ -10,6 +10,10 @@ ul,li {
     padding: 0;
     list-style: none;
 }
+body {
+    font: normal 15px 'RalewayL';
+    color: #444;
+}
 a {
     text-decoration: none;
 }
