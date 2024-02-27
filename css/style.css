@@ -8,6 +8,7 @@
 ul,li {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 a {
     text-decoration: none;
@@ -50,12 +51,12 @@ a {
     margin: 0 auto;
     position: relative;
 }
-#wrap header .header_main h1.logo {
+h1.logo {
     font-size: 23px;
     letter-spacing: 5px;
     padding-left: 50px;
 }
-#wrap header .header_main h1.logo span.logoImg {
+h1.logo span.logoImg {
     background: url(../images/fv.png)no-repeat;
     width: 35px;
     height: 35px;
@@ -64,4 +65,25 @@ a {
     top: 50%;
     transform: translateY(-50%);
     background-size: 35px;
+}
+h1.logo a {
+    color: #444;
+}
+h1.logo a span {
+    color: #1ebbd7;
+}
+h1.logo a span.pf {
+    font-size: 12px;
+    position: relative;
+    top: -2px;
+}
+h1.logo a span.pf::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: -8px;
+    width: 1px;
+    height: 9px;
+    background-color: #444;
 }
